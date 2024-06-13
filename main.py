@@ -3,12 +3,12 @@ from cell import Cell
 
 WIDTH = 1000
 HEIGHT = 600
-SQUARE_SIZE = 5
+SQUARE_SIZE = 25
 win = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 pygame.display.set_caption("Conway's Game Of Life")
 
-# initial_state = [(2, 0), (0, 0), (0, 1), (-1, 1), (0, 2)]
+initial_state = [(2, 0), (0, 0), (0, 1), (-1, 1), (0, 2)]
 
 
 def main():
